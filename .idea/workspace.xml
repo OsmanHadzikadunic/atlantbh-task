@@ -4,312 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0316adde-526c-4cbc-8ba7-172dd3517b63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_high_scale_lib_high_scale_lib_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jamm_0_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_84_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_logs_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_common_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_19_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_all_0_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_thrift_0_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_deps_avro_1_4_0_cassandra_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v108_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v109_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v110_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_manager_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutomationUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/BuyProductMoreQuantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/BuyProductWithComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/ClickOnShopNowButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveCityFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveEmailFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveFirstNameFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveLastNameFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeavePhoneNumberFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveStreetAddressFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/regression/LeaveZipCodeFieldEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/AddRemoveItemFromCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/BuyMultipleProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/ContactEmailInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/ContactNumberInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/RegisterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smoke/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GlobalFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GlobalValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/QuantityIncreaseButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Randomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ThreadSleeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-13-25_389-jvmRun1.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-13-25_389.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-18-29_199.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-24-51_957.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-28-24_757.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-29-20_053.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-31-46_356.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-36-51_459.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-38-51_779.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-39-44_489.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-40-10_992.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-41-05_245.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-41-49_144.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-42-41_300.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-43-12_057.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-44-26_984.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-46-50_229.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-46-55_789.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-50-45_358.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-51-02_349.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-51-46_978.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-52-03_888.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-55-30_770.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-23T19-56-06_223.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T00-29-04_240.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T00-29-36_235.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T00-30-57_378.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T00-31-14_117.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T01-59-09_567.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-36-00_822.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-53-17_205.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-53-47_304.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-57-16_834.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-57-29_190.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T09-57-55_043.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-01-34_935.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-13-33_460.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-14-46_861.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-17-18_807.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-23-37_738.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-23-58_639.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-24-25_187.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-27-04_791.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-28-53_366.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-29-46_561.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-33-06_736.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-35-25_036.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-45-09_178.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-48-37_912.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-49-17_303.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-49-50_675.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-51-50_895.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-52-46_986.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-53-12_546.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-54-18_608.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-56-51_721.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T10-57-45_312.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-00-55_607.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-01-57_819.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-03-00_483.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-04-17_289.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-05-18_628.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-06-16_131.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-06-26_468.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-07-17_850.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-08-07_968.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-10-33_229.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-11-32_989.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-12-21_324.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-14-23_656.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-17-19_254.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-20-35_848.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-21-06_449.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-21-13_986.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-21-36_171.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-22-06_504.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-35-07_381.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-36-18_500.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-36-53_170.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-37-58_041.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-39-06_029.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T11-54-31_127.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-48-30_501.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-48-59_944.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-49-40_616.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-50-13_240.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-50-47_659.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-51-08_622.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-51-35_582.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-52-36_995.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-53-07_177.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-24T12-53-12_534.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestNG Group Test/smoke.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestNG Group Test/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestNG Group Test/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.BuyProductMoreQuantity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.BuyProductWithComment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.ClickOnShopNowButton.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveCityFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveEmailFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveFirstNameFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveLastNameFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeavePhoneNumberFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveStreetAddressFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.regression.LeaveZipCodeFieldEmpty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.AddRemoveItemFromCart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.BuyMultipleProducts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.ContactEmailInformation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.ContactNumberInformation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.LoginUser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.RegisterUser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.smoke.SearchTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/smoke.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestNG Group Test/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/BuyProductMoreQuantity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/BuyProductWithComment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/ClickOnShopNowButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveCityFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveEmailFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveFirstNameFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveLastNameFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeavePhoneNumberFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveStreetAddressFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/regression/LeaveZipCodeFieldEmpty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/AddRemoveItemFromCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/BuyMultipleProducts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/ContactEmailInformation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/ContactNumberInformation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/LoginUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/RegisterUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/smoke/SearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/GlobalFields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/GlobalValues.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/QuantityIncreaseButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/Randomizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ThreadSleeper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0316adde-526c-4cbc-8ba7-172dd3517b63" name="Changes" comment="Atlantbh Smoke test automation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -341,13 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Downloads/IntelliJProjects/untitled&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Downloads/IntelliJProjects/untitled"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Downloads\IntelliJProjects\untitled" />
@@ -481,6 +177,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677150150758</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atlantbh Smoke test automation">
+      <created>1677240237251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677240237251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,5 +197,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atlantbh Smoke test automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atlantbh Smoke test automation" />
   </component>
 </project>
