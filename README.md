@@ -1,6 +1,8 @@
 # How to run tests
 Tests are located in "tests" directory where they are separated in 2 groups : Smoke tests and Regression tests
 
+Tests can be run by clicking green arrow button by the @Test annotation.
+
 Tests can be run through terminal with command where all tests can be run by one group :
 
 "mvn test -Dgroups=smoke" or "mvn test -Dgroups=regression"
