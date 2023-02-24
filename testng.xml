@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Group Test">
+    <test name="smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <include name="empty_zipcode_field"/>
+                <include name="empty_streetAddress_field"/>
+                <include name="empty_phoneNumber_field"/>
+                <include name="empty_phoneNumber_field"/>
+                <include name="empty_lastName_field"/>
+                <include name="empty_firstName_field"/>
+                <include name="empty_email_field"/>
+                <include name="empty_city_field"/>
+                <include name="shopNow_button"/>
+                <include name="buy_products_more_quantity"/>
+                <include name="buy_multiple_products"/>
+                <include name="search_test"/>
+                <include name="buy_product_with_comment"/>
+                <include name="buy_with_comment"/>
+                <include name="add_remove_item"/>
+                <include name="email_contact"/>
+                <include name="phone_number_contact"/>
+                <include name="login_user"/>
+                <include name="register_User"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.smoke.BuyMultipleProducts"/>
+            <class name="tests.regression.BuyProductMoreQuantity"/>
+            <class name="tests.regression.BuyProductWithComment"/>
+            <class name="tests.smoke.SearchTest"/>
+            <class name="tests.regression.LeaveCityFieldEmpty"/>
+            <class name="tests.regression.LeaveEmailFieldEmpty"/>
+            <class name="tests.regression.LeaveFirstNameFieldEmpty"/>
+            <class name="tests.regression.LeaveLastNameFieldEmpty"/>
+            <class name="tests.regression.LeavePhoneNumberFieldEmpty"/>
+            <class name="tests.regression.LeaveStreetAddressFieldEmpty"/>
+            <class name="tests.regression.LeaveZipCodeFieldEmpty"/>
+            <class name="tests.regression.BuyProductMoreQuantity"/>
+            <class name="tests.regression.ClickOnShopNowButton"/>
+            <class name="tests.smoke.AddRemoveItemFromCart"/>
+            <class name="tests.smoke.ContactEmailInformation"/>
+            <class name="tests.smoke.ContactNumberInformation"/>
+            <class name="tests.smoke.LoginUser"/>
+            <class name="tests.smoke.RegisterUser"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestNG_Group_Test" class="navigator-link">
+              <span class="suite-name border-skipped">TestNG Group Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestNG_Group_Test" class="navigator-link ">
+                    <span>D:\Downloads\IntelliJProjects\untitled\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestNG_Group_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestNG_Group_Test" class="navigator-link ">
+                    <span>10 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestNG_Group_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestNG_Group_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestNG_Group_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestNG_Group_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,  2 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestNG_Group_Test" class="hide-methods skipped suite-TestNG_Group_Test"> (hide)</a> <!-- hide-methods skipped suite-TestNG_Group_Test -->
+                      <a href="#" panel-name="suite-TestNG_Group_Test" class="show-methods skipped suite-TestNG_Group_Test"> (show)</a> <!-- show-methods skipped suite-TestNG_Group_Test -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestNG_Group_Test">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.BuyProductMoreQuantity" class="method navigator-link" hash-for-method="buyProducts">buyProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.ClickOnShopNowButton" class="method navigator-link" hash-for-method="scrollAndClickButtonTest">scrollAndClickButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestNG_Group_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNG_Group_Test" class="hide-methods passed suite-TestNG_Group_Test"> (hide)</a> <!-- hide-methods passed suite-TestNG_Group_Test -->
+                      <a href="#" panel-name="suite-TestNG_Group_Test" class="show-methods passed suite-TestNG_Group_Test"> (show)</a> <!-- show-methods passed suite-TestNG_Group_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNG_Group_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveStreetAddressFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveCityFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveLastNameFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveFirstNameFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeavePhoneNumberFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveZipCodeFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Group_Test" title="tests.regression.LeaveEmailFieldEmpty" class="method navigator-link" hash-for-method="buyMultipleProducts">buyMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNG_Group_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNG_Group_Test" class="panel TestNG_Group_Test">
+          <div class="suite-TestNG_Group_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.regression.ClickOnShopNowButton</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollAndClickButtonTest">
+                  </a> <!-- scrollAndClickButtonTest -->
+                  <span class="method-name">scrollAndClickButtonTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: failed to write prefs file 
+Host info: host: &apos;DESKTOP-B3B8FNT&apos;, ip: &apos;26.244.143.24&apos;
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:146)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:49)
+	at utils.Driver.driverInit(Driver.java:11)
+	at tests.regression.ClickOnShopNowButton.driverInit(ClickOnShopNowButton.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-skipped -->
+          <div class="suite-TestNG_Group_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.regression.BuyProductMoreQuantity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyProducts">
+                  </a> <!-- buyProducts -->
+                  <span class="method-name">buyProducts</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: failed to write prefs file 
+Host info: host: &apos;DESKTOP-B3B8FNT&apos;, ip: &apos;26.244.143.24&apos;
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:146)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:49)
+	at utils.Driver.driverInit(Driver.java:11)
+	at tests.regression.BuyProductMoreQuantity.driverInit(BuyProductMoreQuantity.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-skipped -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveStreetAddressFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveEmailFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeavePhoneNumberFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveZipCodeFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveLastNameFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveCityFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+          <div class="suite-TestNG_Group_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.regression.LeaveFirstNameFieldEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyMultipleProducts">
+                  </a> <!-- buyMultipleProducts -->
+                  <span class="method-name">buyMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Group_Test-class-passed -->
+        </div> <!-- panel TestNG_Group_Test -->
+        <div panel-name="test-xml-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Downloads\IntelliJProjects\untitled\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestNG Group Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smoke&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.smoke.BuyMultipleProducts&quot;/&gt;
+      &lt;class name=&quot;tests.smoke.SearchTest&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveCityFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveEmailFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveFirstNameFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveLastNameFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeavePhoneNumberFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveStreetAddressFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.LeaveZipCodeFieldEmpty&quot;/&gt;
+      &lt;class name=&quot;tests.regression.BuyProductMoreQuantity&quot;/&gt;
+      &lt;class name=&quot;tests.regression.ClickOnShopNowButton&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Group Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Group Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">smoke (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Group Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">buy_products_more_quantity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_city_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_email_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_firstName_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_lastName_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_phoneNumber_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_streetAddress_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">empty_zipcode_field</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">buyProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">scrollAndClickButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">shopNow_button</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">scrollAndClickButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Group Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Group_Test');
+function tableData_TestNG_Group_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'buyMultipleProducts')
+data.setCell(0, 2, 'tests.regression.LeaveCityFieldEmpty')
+data.setCell(0, 3, 29792);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'buyMultipleProducts')
+data.setCell(1, 2, 'tests.regression.LeaveEmailFieldEmpty')
+data.setCell(1, 3, 29771);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'buyMultipleProducts')
+data.setCell(2, 2, 'tests.regression.LeavePhoneNumberFieldEmpty')
+data.setCell(2, 3, 29329);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'buyMultipleProducts')
+data.setCell(3, 2, 'tests.regression.LeaveZipCodeFieldEmpty')
+data.setCell(3, 3, 29102);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'buyMultipleProducts')
+data.setCell(4, 2, 'tests.regression.LeaveStreetAddressFieldEmpty')
+data.setCell(4, 3, 29033);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'buyMultipleProducts')
+data.setCell(5, 2, 'tests.regression.LeaveFirstNameFieldEmpty')
+data.setCell(5, 3, 28460);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'buyMultipleProducts')
+data.setCell(6, 2, 'tests.regression.LeaveLastNameFieldEmpty')
+data.setCell(6, 3, 28317);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'scrollAndClickButtonTest')
+data.setCell(7, 2, 'tests.regression.ClickOnShopNowButton')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'buyProducts')
+data.setCell(8, 2, 'tests.regression.BuyProductMoreQuantity')
+data.setCell(8, 3, 0);
+window.suiteTableData['TestNG_Group_Test']= { tableData: data, tableDiv: 'times-div-TestNG_Group_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-TestNG_Group_Test">
+              </div> <!-- times-div-TestNG_Group_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Group Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.smoke.BuyMultipleProducts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">buyMultipleProducts</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.smoke.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchNavigation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Group_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveCityFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">5692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">35486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveEmailFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">35490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">39159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">68930 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveFirstNameFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">68931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">72686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">101147 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveLastNameFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">101147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">104956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">133273 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeavePhoneNumberFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">133274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">137028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">166357 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveStreetAddressFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">166358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">170157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">199191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.LeaveZipCodeFieldEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">driverInit</span>
+                <span class="method-start">199192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyMultipleProducts</span>
+                <span class="method-start">202905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">232007 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.BuyProductMoreQuantity</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">driverInit</span>
+                <span class="method-start">232008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyProducts</span>
+                <span class="method-start">232200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">232201 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.regression.ClickOnShopNowButton</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">driverInit</span>
+                <span class="method-start">232203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrollAndClickButtonTest</span>
+                <span class="method-start">232350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">232350 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

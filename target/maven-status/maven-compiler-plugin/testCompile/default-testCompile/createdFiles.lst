@@ -1,0 +1,7 @@
+tests\regression\BuyProductWithComment.class
+tests\smoke\ContactNumberInformation.class
+tests\smoke\RegisterUser.class
+utils\QuantityIncreaseButton.class
+tests\smoke\AddRemoveItemFromCart.class
+tests\smoke\ContactEmailInformation.class
+tests\smoke\LoginUser.class

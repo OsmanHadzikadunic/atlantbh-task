@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="17" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T12:53:13 CET" name="TestNG Group Test" finished-at="2023-02-24T12:55:08 CET" duration-ms="114675">
+    <groups>
+      <group name="buy_multiple_products">
+        <method signature="BuyMultipleProducts.buyMultipleProducts()[pri:0, instance:tests.smoke.BuyMultipleProducts@17f62e33]" name="buyMultipleProducts" class="tests.smoke.BuyMultipleProducts"/>
+      </group> <!-- buy_multiple_products -->
+      <group name="search_test">
+        <method signature="SearchTest.searchProduct()[pri:0, instance:tests.smoke.SearchTest@3ba987b8]" name="searchProduct" class="tests.smoke.SearchTest"/>
+      </group> <!-- search_test -->
+      <group name="login_user">
+        <method signature="LoginUser.loginUser()[pri:0, instance:tests.smoke.LoginUser@7a35b0f5]" name="loginUser" class="tests.smoke.LoginUser"/>
+      </group> <!-- login_user -->
+      <group name="smoke">
+        <method signature="AddRemoveItemFromCart.addRemoveItem()[pri:0, instance:tests.smoke.AddRemoveItemFromCart@8458f04]" name="addRemoveItem" class="tests.smoke.AddRemoveItemFromCart"/>
+        <method signature="BuyMultipleProducts.buyMultipleProducts()[pri:0, instance:tests.smoke.BuyMultipleProducts@17f62e33]" name="buyMultipleProducts" class="tests.smoke.BuyMultipleProducts"/>
+        <method signature="ContactEmailInformation.clickOnEmailContact()[pri:0, instance:tests.smoke.ContactEmailInformation@48075da3]" name="clickOnEmailContact" class="tests.smoke.ContactEmailInformation"/>
+        <method signature="ContactNumberInformation.clickOnPhoneNumberContact()[pri:0, instance:tests.smoke.ContactNumberInformation@68c9133c]" name="clickOnPhoneNumberContact" class="tests.smoke.ContactNumberInformation"/>
+        <method signature="LoginUser.loginUser()[pri:0, instance:tests.smoke.LoginUser@7a35b0f5]" name="loginUser" class="tests.smoke.LoginUser"/>
+        <method signature="RegisterUser.loginUser()[pri:0, instance:tests.smoke.RegisterUser@5e2c3d18]" name="loginUser" class="tests.smoke.RegisterUser"/>
+        <method signature="SearchTest.searchProduct()[pri:0, instance:tests.smoke.SearchTest@3ba987b8]" name="searchProduct" class="tests.smoke.SearchTest"/>
+      </group> <!-- smoke -->
+      <group name="email_contact">
+        <method signature="ContactEmailInformation.clickOnEmailContact()[pri:0, instance:tests.smoke.ContactEmailInformation@48075da3]" name="clickOnEmailContact" class="tests.smoke.ContactEmailInformation"/>
+      </group> <!-- email_contact -->
+      <group name="add_remove_item">
+        <method signature="AddRemoveItemFromCart.addRemoveItem()[pri:0, instance:tests.smoke.AddRemoveItemFromCart@8458f04]" name="addRemoveItem" class="tests.smoke.AddRemoveItemFromCart"/>
+      </group> <!-- add_remove_item -->
+      <group name="phone_number_contact">
+        <method signature="ContactNumberInformation.clickOnPhoneNumberContact()[pri:0, instance:tests.smoke.ContactNumberInformation@68c9133c]" name="clickOnPhoneNumberContact" class="tests.smoke.ContactNumberInformation"/>
+      </group> <!-- phone_number_contact -->
+      <group name="register_user">
+        <method signature="RegisterUser.loginUser()[pri:0, instance:tests.smoke.RegisterUser@5e2c3d18]" name="loginUser" class="tests.smoke.RegisterUser"/>
+      </group> <!-- register_user -->
+    </groups>
+    <test started-at="2023-02-24T12:53:13 CET" name="smoke" finished-at="2023-02-24T12:55:08 CET" duration-ms="114675">
+      <class name="tests.smoke.ContactEmailInformation">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.ContactEmailInformation@48075da3]" started-at="2023-02-24T12:54:28 CET" name="driverInit" finished-at="2023-02-24T12:54:32 CET" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="clickOnEmailContact()[pri:0, instance:tests.smoke.ContactEmailInformation@48075da3]" started-at="2023-02-24T12:54:32 CET" name="clickOnEmailContact" finished-at="2023-02-24T12:54:35 CET" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmailContact -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.ContactEmailInformation@48075da3]" started-at="2023-02-24T12:54:35 CET" name="quitDriver" finished-at="2023-02-24T12:54:35 CET" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.ContactEmailInformation -->
+      <class name="tests.smoke.AddRemoveItemFromCart">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.AddRemoveItemFromCart@8458f04]" started-at="2023-02-24T12:54:07 CET" name="driverInit" finished-at="2023-02-24T12:54:11 CET" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="addRemoveItem()[pri:0, instance:tests.smoke.AddRemoveItemFromCart@8458f04]" started-at="2023-02-24T12:54:11 CET" name="addRemoveItem" finished-at="2023-02-24T12:54:28 CET" duration-ms="16717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveItem -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.AddRemoveItemFromCart@8458f04]" started-at="2023-02-24T12:54:28 CET" name="quitDriver" finished-at="2023-02-24T12:54:28 CET" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.AddRemoveItemFromCart -->
+      <class name="tests.smoke.SearchTest">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.SearchTest@3ba987b8]" started-at="2023-02-24T12:53:58 CET" name="driverInit" finished-at="2023-02-24T12:54:02 CET" duration-ms="4490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="searchProduct()[pri:0, instance:tests.smoke.SearchTest@3ba987b8]" started-at="2023-02-24T12:54:02 CET" name="searchProduct" finished-at="2023-02-24T12:54:07 CET" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.SearchTest@3ba987b8]" started-at="2023-02-24T12:54:07 CET" name="quitDriver" finished-at="2023-02-24T12:54:07 CET" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.SearchTest -->
+      <class name="tests.smoke.BuyMultipleProducts">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.BuyMultipleProducts@17f62e33]" started-at="2023-02-24T12:53:13 CET" name="driverInit" finished-at="2023-02-24T12:53:18 CET" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="buyMultipleProducts()[pri:0, instance:tests.smoke.BuyMultipleProducts@17f62e33]" started-at="2023-02-24T12:53:18 CET" name="buyMultipleProducts" finished-at="2023-02-24T12:53:57 CET" duration-ms="39513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyMultipleProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.BuyMultipleProducts@17f62e33]" started-at="2023-02-24T12:53:57 CET" name="quitDriver" finished-at="2023-02-24T12:53:58 CET" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.BuyMultipleProducts -->
+      <class name="tests.smoke.RegisterUser">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.RegisterUser@5e2c3d18]" started-at="2023-02-24T12:54:55 CET" name="driverInit" finished-at="2023-02-24T12:54:59 CET" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="loginUser()[pri:0, instance:tests.smoke.RegisterUser@5e2c3d18]" started-at="2023-02-24T12:54:59 CET" name="loginUser" finished-at="2023-02-24T12:55:08 CET" duration-ms="9251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.RegisterUser@5e2c3d18]" started-at="2023-02-24T12:55:08 CET" name="quitDriver" finished-at="2023-02-24T12:55:08 CET" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.RegisterUser -->
+      <class name="tests.smoke.LoginUser">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.LoginUser@7a35b0f5]" started-at="2023-02-24T12:54:42 CET" name="driverInit" finished-at="2023-02-24T12:54:46 CET" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="loginUser()[pri:0, instance:tests.smoke.LoginUser@7a35b0f5]" started-at="2023-02-24T12:54:46 CET" name="loginUser" finished-at="2023-02-24T12:54:55 CET" duration-ms="8537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.LoginUser@7a35b0f5]" started-at="2023-02-24T12:54:55 CET" name="quitDriver" finished-at="2023-02-24T12:54:55 CET" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.LoginUser -->
+      <class name="tests.smoke.ContactNumberInformation">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:tests.smoke.ContactNumberInformation@68c9133c]" started-at="2023-02-24T12:54:35 CET" name="driverInit" finished-at="2023-02-24T12:54:39 CET" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="clickOnPhoneNumberContact()[pri:0, instance:tests.smoke.ContactNumberInformation@68c9133c]" started-at="2023-02-24T12:54:39 CET" name="clickOnPhoneNumberContact" finished-at="2023-02-24T12:54:42 CET" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPhoneNumberContact -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.smoke.ContactNumberInformation@68c9133c]" started-at="2023-02-24T12:54:42 CET" name="quitDriver" finished-at="2023-02-24T12:54:42 CET" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.smoke.ContactNumberInformation -->
+    </test> <!-- smoke -->
+  </suite> <!-- TestNG Group Test -->
+</testng-results>
