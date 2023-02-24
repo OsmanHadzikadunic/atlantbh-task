@@ -3,11 +3,11 @@ Tests are located in "tests" directory where they are separated in 2 groups : Sm
 
 Tests can be run by clicking green arrow button by the @Test annotation.
 
-Tests can be run through terminal with command where all tests can be run by one group :
+Tests can be executed via a terminal command, and one group can execute all the tests:
 
 "mvn test -Dgroups=smoke" or "mvn test -Dgroups=regression"
 
-Tests can be also run one by one with different name.
+Tests can also be run individually under different names.
 
 For Smoke tests:
 
