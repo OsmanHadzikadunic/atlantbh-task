@@ -1,4 +1,4 @@
-# atlantbh-task
+# How to run tests
 Tests are located in "tests" directory where they are separated in 2 groups : Smoke tests and Regression tests
 
 Tests can be run through terminal with command where all tests can be run by one group :
